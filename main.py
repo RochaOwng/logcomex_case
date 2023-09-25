@@ -92,4 +92,4 @@ if __name__ == "__main__":
     df_ncm_with_infos = merge_data(df_imp_df_ncm, df_urf, df_via, df_ncm)
     df_final = create_dataset(df_imp_municipio_sh4, df_uf_mun, df_pais, df_ncm_with_infos)
 
-    print(df_final.head())
+    df_final.to_csv('output_dataset.csv', sep=';', index=False)
