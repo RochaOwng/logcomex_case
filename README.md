@@ -1,4 +1,4 @@
-# Log
+# Logcomex Case Test
 
 This project uses Docker to run a Python script with dependencies.
 
