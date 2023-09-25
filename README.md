@@ -12,8 +12,8 @@ This project uses Docker to run a Python script with dependencies.
 
    ```
    bash
-   git clone https://github.com/RochaOwng/logcomex-case
-   cd logcomex-case
+   git clone https://github.com/RochaOwng/logcomex_case
+   cd logcomex_case
 2. Build the Docker image:
    ```
    docker build -t your-docker-image-name .
